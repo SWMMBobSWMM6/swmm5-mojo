@@ -1,0 +1,12 @@
+gate/ref_outputs/
+gate/results/*/
+*/bin/
+*/obj/
+*/.zig-cache/
+*/zig-out/
+*/swmm5.jar
+*/classes/
+node_modules/
+__pycache__/
+*.pyc
+ref/runswmm

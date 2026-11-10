@@ -1,0 +1,40 @@
+# mojo/test/run_libm_tests.sh 1000000, 2026-11-09
+Included from /home/claude/swmm5-ports/mojo/test/libmcheck.mojo:11:
+./swmm5/rt.mojo:1975:24: warning: assignment to 'flags' was never used; assign to '_' instead?
+    var flags: Int32 = 0
+                       ^
+== Mojo 1.2.0 (2016d0cd): vectors.bin (N = 1000000 per function)
+exp : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+log : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+log10 : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+pow : 1000272 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+sin : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+cos : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+tan : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+asin : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+acos : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+atan : 1000016 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+fma : 1000256 vectors, not used by the Mojo port (skipped)
+0 of 10000416 differ
+== edge.bin
+exp : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+log : 200000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+log10 : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+pow : 700000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+sin : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+cos : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+tan : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+asin : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+acos : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+atan : 300000 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+0 of 3300000 differ
+== exact.bin (N = 1000000 per function)
+sqrt : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+floor : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+ceil : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+fabs : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+neg : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+f32 : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+d2i : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+d2l : 1000045 vectors, 0 differ ( 0 of them only in a NaN's sign or payload)
+0 of 8000360 differ

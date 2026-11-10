@@ -1,0 +1,10 @@
+# mojo/test/run_crtcheck.sh, 2026-11-09
+  f	%#g	412e847f00000000	312e652b3036  mojo=312e3030303030652b3036
+printf %f : 1082106 cases, 1 differ
+printf %d : 84000 cases, 0 differ
+printf %ld : 28000 cases, 0 differ
+printf %s : 81 cases, 0 differ
+strtod : 200052 cases, 0 differ
+sscanf : 13 cases, 0 differ
+1 of 1394252 cases differ
+sscanf %f into a float: 200000 cases, 0 differ
